@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
+  "manifest_version": "2.0",
+  "name": "Thunderbird",
+  "description": "Manage email, calendars and contacts.",
+  "version": "stable",
+  "image": "ghcr.io/containerpak/thunderbird:main",
+  "binaries": [
+    "/usr/bin/thunderbird"
+  ],
+  "desktop_entries": [
+    "/usr/share/applications/thunderbird.desktop"
+  ],
+  "dependencies": [
+
+  ],
+  "addons": [
+
+  ],
+  "idle_time": 0,
+  "override": {
+    "socketX11": true,
+    "socketWayland": true,
+    "socketPulseAudio": true,
+    "socketSessionBus": true,
+    "socketSystemBus": false,
+    "socketSshAgent": false,
+    "socketCups": false,
+    "socketGpgAgent": false,
+    "socketAtSpiBus": true,
+    "socketBluetooth": false,
+    "deviceDri": false,
+    "deviceKvm": false,
+    "deviceShm": true,
+    "deviceAlsa": false,
+    "deviceVideo": false,
+    "deviceFuse": false,
+    "deviceTun": false,
+    "deviceUsb": false,
+    "deviceAll": false,
+    "notification": true,
+    "openURI": true,
+    "filesystem": [
+      {
+        "path": "home",
+        "access": "read-write"
+      }
+    ],
+    "env": [
+
+    ],
+    "network": true,
+    "process": false,
+    "userNamespaces": true,
+    "memoryMaxMB": 0,
+    "cpuQuota": 0,
+    "pidsMax": 0,
+    "asRoot": false,
+    "allowedHostCommands": [
+
+    ]
+  }
+}
