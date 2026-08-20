@@ -3,7 +3,7 @@
   "manifest_version": "2.0",
   "name": "Thunderbird",
   "description": "Manage email, calendars and contacts.",
-  "version": "stable",
+  "version": "153.0.3",
   "image": "ghcr.io/containerpak/thunderbird:main",
   "binaries": [
     "/usr/bin/thunderbird"
