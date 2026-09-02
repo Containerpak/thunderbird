@@ -4,7 +4,7 @@
   "name": "Thunderbird",
   "description": "Manage email, calendars and contacts.",
   "version": "155.0",
-  "image": "ghcr.io/containerpak/thunderbird@sha256:95189f735875c7a888df7ada689977ebee439bab0882ef73a1cbaa8efe304af6",
+  "image": "ghcr.io/containerpak/thunderbird@sha256:88763cef386f2c03a8648bda0610054e34cd0a5740576d40f1aa30f0d6ae8edb",
   "binaries": [
     "/usr/bin/thunderbird"
   ],
