@@ -1,6 +1,6 @@
 FROM ubuntu:26.04 AS source
 
-ADD --checksum=sha256:3f0266b950415b46fdb375a88cfbbd1054a8097ada5515bbe0464ca5f1307461 https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/155.0/linux-x86_64/en-US/thunderbird-155.0.tar.xz /tmp/source
+ADD --checksum=sha256:5d04334e94458f78dff540eac5b9ff7dd837e0c2c21c2e16f80ffba374f2caac https://download-installer.cdn.mozilla.net/pub/thunderbird/releases/155.0.1/linux-x86_64/en-US/thunderbird-155.0.1.tar.xz /tmp/source
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends xz-utils && \
